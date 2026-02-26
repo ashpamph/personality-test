@@ -83,6 +83,8 @@ h2{ font-size:clamp(1.1rem, 1.4vw + .7rem, 1.35rem) }
 }
 .helper{ display:block; color:var(--muted); font-weight:500; margin-top:4px }
 
+.form-group img { width:100%; padding-bottom: 16px; }
+
 .radio-group{ display:grid; gap:10px }
 .option-box{
   display:grid;
@@ -143,8 +145,4 @@ h2{ font-size:clamp(1.1rem, 1.4vw + .7rem, 1.35rem) }
 
 @media (prefers-reduced-motion: reduce){
   *{ transition:none !important; animation:none !important }
-}
-
-img {
-    width: 100%;
 }
